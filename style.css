@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	font-family: 'Noto Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+	--grey: hsl(35, 40%, 94%);
+	--darkGrey: hsl(32, 14%, 18%);
+
+	height: 100%;
+}
+
+body {
+	display: grid;
+	place-items: left;
+}
+
+main {
+	background: url(images/backgroundDrugstore.svg) no-repeat center/cover;
+	width: 100vw;
+	height: 100vh;
+	min-height: 896px;
+}
+
+.columnForItems {
+	background: var(--darkGrey);
+	width: 383;
+	height: 76;
+}
